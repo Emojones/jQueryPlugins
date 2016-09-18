@@ -10,7 +10,10 @@
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="js/animsition/animsition.min.css">
+        <link rel="stylesheet" href="js/slick/slick.css">
+        <link rel="stylesheet" href="js/slick/slick-theme.css">
         <link rel="stylesheet" href="css/main.css">
+     
     </head>
     <body>
       <div class="row container animsition">
@@ -35,6 +38,7 @@
             <h2>Meet the team</h2>
             <h4>United we stand divided we fail</h4>
           </div>
+        <div class="teamSlides">
           <div class="grid-fifth">
             <img src="img/team-members/team--01.png" alt="" class="avatar" />
             <h3>Bill Bigsby IV</h3>
@@ -95,6 +99,7 @@
             <h3>Fido Fur</h3>
             <p>Office Manager</p>
           </div><!--/12-->
+            </div>
         </div>
         </div><!--/main-->
         <footer>
@@ -112,9 +117,17 @@
           </div>
         </footer><!--/footer-->
         </div>
-        <script src="js/jquery-1.11.2.min.js"></script>
-        <script src="js/animsition/jquery.animsition.min.js"></script>
-        <script src="js/sticky/jquery.sticky.js"></script>
-        <script src="js/main.js"></script>
+      <script src="js/jquery-1.11.2.min.js"></script>
+      <script src="js/animsition/jquery.animsition.min.js"></script>
+      <script src="js/sticky/jquery.sticky.js"></script>
+      <script src="js/slick/slick.min.js"></script>
+      <script src="js/main.js"></script>
+    <script>
+     $(".teamSlides").slick({
+            dots: true,
+            slidesToShow: 4,
+            slidesToScroll: 4
+             });    
+    </script>
     </body>
 </html>

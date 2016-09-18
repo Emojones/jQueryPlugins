@@ -35,22 +35,3 @@ $('.work').on('sticky-end', function() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
